@@ -11,7 +11,7 @@ public class Min_Max {
             A[i] = s.nextInt();
         }
         System.out.println("Elements of the array are: "+Arrays.toString(A));
-        int min = A[0];
+        /*int min = A[0];
         int max = 0;
         for(int i = 0; i<A.length;i++) {
             if(min > A[i]){
@@ -22,7 +22,9 @@ public class Min_Max {
             }
         }
         System.out.println("Minimum value is : "+ min);
-        System.out.println("Maximum value is : "+ max);
+        System.out.println("Maximum value is : "+ max);*/
+        int minimum = Integer.MAX_VALUE;
+        System.out.println(minimum);
         s.close();
     }
 }
