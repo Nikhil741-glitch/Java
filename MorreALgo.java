@@ -29,7 +29,6 @@ public class MorreALgo {
                 counte++;
             }
         }
-        System.out.println(counte);
         if(counte > (n/2)) {
             System.out.println("Majority Element is : ");
             System.out.println(a[index]);         

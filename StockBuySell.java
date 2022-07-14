@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class StockBuySell {
     static int Stock(int a[]) {
         int maxProfit = 0;
